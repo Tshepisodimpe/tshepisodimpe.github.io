@@ -1,0 +1,303 @@
+
+body{
+    margin: 0;
+    padding:0;
+    max-width: 100%;
+    
+}
+#headerSection
+{
+  max-width: 100%;
+  height: 100vh;
+  background-image: url('../img/web.jpg');
+  background-size:cover; 
+  background-position: center;
+  
+  
+}
+.header{
+    text-align: center;
+    margin-top: 125px ;
+    color:white;
+   
+}
+button {
+   border-radius: 50px;
+   border:transparent;
+   background-color: transparent;
+   color:lawngreen;
+}
+button:hover{
+  color: white;
+}
+.SkillsHeader{
+  text-align: center;
+  padding-top: 35px ;
+  padding-bottom: 15px;
+  
+ 
+}
+.skills{
+   padding-top: 35px ;
+   padding-bottom: 35px;
+   text-align: center;
+  
+}
+
+.skills-container{
+  /*max-width: 100%;*/
+  padding-bottom: 30px;
+  padding-top: 25px;
+}
+.skills:hover{
+  background-color: black;
+  color: orange;
+  
+}
+img{
+  width: 250px;
+
+}
+.work h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+.work p{
+  text-align: center;
+  padding-top: 20px;
+}
+.work-row{
+   text-align: center;
+   padding-top: 35px;
+
+}
+.work-row img:hover{
+  transform: scale(1.4);
+  
+}
+
+.about{
+  text-align: center;
+  margin-top: 105px;
+  padding-top: 75px;
+  padding-bottom: 45px;
+  background-color: rgb(240, 237, 237);
+  max-width: 100%;
+}
+.about p{
+  padding-top: 45px;
+}
+.about a{
+  text-decoration: none;
+  color:black;
+}
+
+/*media designs for different screensizes*/
+
+@media (max-width: 600px){
+  #headerSection
+  {
+     height: 40vh;
+     font-size: 10px;
+     max-width: 100%;
+     background-repeat: inherit;
+     background-position: center;
+    
+  }
+  .header
+  {
+    margin-top: 145px ;
+    padding-left: 25px;
+    padding-right: 25px ;
+
+  }
+  h1{
+     font-size: 15px;
+  }
+  .header p{
+    font-size: 10px;
+  }
+  .SkillsRow{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: -25px;
+
+  }
+  .SkillsHeader{
+    font-size: 12px;
+  }
+  .skills{
+    padding-top: -25px;
+    padding-left: 25px;
+    padding-right: 25px ;
+  }
+  .work h2{
+    font-size: 25px;
+  }
+  .work p{
+    font-size: 12px;
+  }
+  .about{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 10px;
+  }
+}
+
+@media(min-width: 600px) and (max-width:1500px){
+  
+    #headerSection{
+      height: 100vh;
+      font-size: 15px;
+
+  }
+  .header
+  {
+    margin-top: 250px;
+    
+   
+  }
+  .SkillsHeader{
+    font-size: 14px;
+  }
+  .skills-container{
+    margin-top: 75px;
+    
+  }
+ .work-container{
+  margin-top: 45px;
+ }
+ .work h2{
+  font-size: 25px;
+     }
+.work p{
+  font-size: 15px;
+     }
+  }
+  @media(min-width: 914px){
+  
+    #headerSection{
+      height: 100vh;
+      font-size: 11px;
+
+  }
+  .header
+  {
+    margin-top: 160px;
+    
+   
+  }
+  .header h1{
+    font-size: 28px;
+  }
+  .SkillsHeader{
+    font-size: 13px;
+  }
+  .skills-container{
+    margin-top: 35px;
+    max-width: 95%;
+  }
+ .work-container{
+  margin-top: 15px;
+ }
+ .work h2{
+  font-size: 25px;
+     }
+.work p{
+  font-size: 15px;
+     }
+  }
+  .about p{
+    font-size: 12px;
+  }
+  @media(max-width:1500px){
+  
+    #headerSection{
+      height: 100vh;
+      font-size: 17px;
+
+  }
+  .header
+  {
+    margin-top: 270px ;
+
+   
+  }
+  .SkillsHeader{
+    font-size: 16px;
+  }
+  .skills{
+    font-size: 20px;
+  }
+
+ .work h2{
+  font-size: 32px;
+     }
+.work p{
+  font-size: 20px;
+     }
+  }
+  @media(min-width:1500px){
+  
+    #headerSection{
+      height: 100vh;
+      font-size: 20px;
+
+  }
+  .header
+  {
+    padding-top: 270px ;
+
+   
+  }
+  .SkillsHeader{
+    font-size: 16px;
+  }
+  .skills{
+    font-size: 20px;
+  }
+
+ .work h2{
+  font-size: 32px;
+     }
+.work p{
+  font-size: 20px;
+     }
+  }
+ /*@media(min-width:1500){
+
+  #headerSection{
+    height: 70vh;
+    font-size: 12px;
+
+}
+.header
+{
+  margin-top: 260px ;
+
+ 
+}
+.SkillsHeader{
+  font-size: 10px;
+}
+.work-row{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  padding-left: 25px;
+  padding-right: 25px ;
+}
+.work h2{
+  font-size: 14px;
+}
+.work p{
+  font-size: 13px;
+}
+.about{
+  text-align: center;
+  padding-top: 25px;
+  font-size: 12px;
+}
+}*/
+ 
